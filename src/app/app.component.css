@@ -1,0 +1,27 @@
+/* NAVEGACION */
+:host {
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans');
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+  }
+  
+  .navbar{
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    flex: 1;
+  }
+  
+  #navbarSupportedContent li a {
+    padding: 25px;
+  }
+  
+  a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #888690;
+    padding: 30px;
+  }
+  
+  a:hover{
+    color: #07a3e0;
+  }  

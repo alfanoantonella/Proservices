@@ -1,0 +1,23 @@
+.container{
+    
+}
+
+.serviciosfont{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.txtfotos{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+h4{
+    text-transform: uppercase;
+}
+
+.mediospago{
+    font-size: 12px;
+    font-style: italic;
+    text-transform: uppercase;
+}

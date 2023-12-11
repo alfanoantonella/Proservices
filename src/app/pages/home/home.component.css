@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans');
+    
+/*--------------------------------------------------------------
+# Static Hero Section
+--------------------------------------------------------------*/
+.hero-static {
+  width: 100%;
+  min-height: 50vh;
+  background: url("../../../assets/hero-bg.png") center center;
+  background-size: cover;
+  position: relative;
+  padding: 120px 0 60px;
+}
+
+.hero-static h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.hero-static h2 span {
+  color: #07a3e0;
+}
+
+.hero-static p {
+  margin: 0 0 30px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #888690;
+}
+
+.hero-static .btn-get-started {
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-block;
+  padding: 10px 28px;
+  border: 2px solid #07a3e0;
+  background-color: #07a3e0;
+  border-radius: 15px;
+  transition: 0.5s;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 640px) {
+  .hero-static h2 {
+    font-size: 32px;
+  }
+
+  .hero-static p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .hero-static .btn-get-started {
+    font-size: 14px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Featured Services Section
+--------------------------------------------------------------*/
+.featured-services .service-item {
+  padding: 30px;
+  transition: all ease-in-out 0.4s;
+  height: 100%;
+}
+
+.featured-services .service-item .icon {
+  margin-bottom: 10px;
+}
+
+.featured-services .service-item .icon i {
+  font-size: 36px;
+  transition: 0.3s;
+}
+
+.featured-services .service-item h4 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.featured-services .service-item h4 a {
+  text-decoration: none;
+  color: black;
+  transition: ease-in-out 0.3s;
+}
+
+.featured-services .service-item p {
+  line-height: 24px;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.featured-services .service-item:hover {
+  transform: translateY(-10px);
+}
+
+.featured-services .service-item:hover h4 a {
+  color: #07a3e0;
+  cursor: default;
+}
+
+/* About section */
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-header {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.section-header h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.section-header p {
+  margin: 0 auto;
+  color: #888690;
+}
+
+@media (min-width: 1280px) {
+  .section-header p {
+    max-width: 80%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+.services .img {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.services .img img {
+  transition: 0.6s;
+}
+
+.stretched-link, h3{
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.services .details {
+  padding: 50px 30px;
+  margin: -100px 30px 0 30px;
+  transition: all ease-in-out 0.3s;
+  background: white;
+  position: relative;
+  background: rgba(255, 255, 255, 0.699);
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.281);
+}
+
+.services .details .icon {
+  margin: 0;
+  width: 72px;
+  height: 72px;
+  background: #07a3e0;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  border: 6px solid white;
+}
+
+.services .details h3 {
+  color: #1a1f24;
+  font-weight: 700;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+  transition: ease-in-out 0.3s;
+}
+
+.services .details p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .service-item:hover .details h3 {
+  color: #07a3e0;
+}
+
+.services .service-item:hover .details .icon {
+  background: white;
+  border: 2px solid #07a3e0;
+}
+
+.services .service-item:hover .details .icon i {
+  font-weight: bolder;
+  color: #07a3e0;
+}
+
+.services .service-item:hover .img img {
+  transform: scale(1.2);
+}

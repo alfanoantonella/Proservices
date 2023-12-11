@@ -1,0 +1,206 @@
+<main style="background-image: url('../../assets/bgformulario.png'); background-repeat: round;background-size: 100%;">
+<div class="container">
+  <main>
+    <div class="py-5 text-center">
+      <img class="d-block mx-auto mb-4" src="../../assets/service.png" alt="" width="72" height="57">
+      <h2>Formulario de alta de servicio</h2>
+      <p class="lead">Aquí deberás completar tus datos y agregar los servicios que realizas para que puedas ofrecerlos y tus clientes puedan contactarte de forma rápida y segura. </p>
+    </div>
+
+      <div class="container">
+        <h4 class="mb-3v">Datos de contacto:</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">Nombre/s</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Campo obligatorio.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Apellido/s</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Campo obligatorio.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Mail de contacto</label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <div class="invalid-feedback">
+                Campo obligatorio.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">Dirección</label>
+              <input type="text" class="form-control" id="address" required>
+              <div class="invalid-feedback">
+                Campo obligatorio.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address2" class="form-label">Dirección 2 <span class="text-muted">(Opcional)</span></label>
+              <input type="text" class="form-control" id="address2">
+            </div>
+
+            <div class="col-md-5">
+              <label for="country" class="form-label">País de residencia</label>
+              <select class="form-select" id="country" required>
+                <option value="">Seleccionar...</option>
+                <option>Argentina</option>
+              </select>
+              <div class="invalid-feedback">
+                Campo obligatorio.
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <label for="state" class="form-label">Localidad</label>
+              <select class="form-select" id="state" required>
+                <option value="">Seleccionar...</option>
+                <option>Buenos Aires</option>
+                <option>CABA</option>
+              </select>
+              <div class="invalid-feedback">
+                Campo obligatorio.
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="zip" class="form-label">CP</label>
+              <input type="text" class="form-control" id="zip" placeholder="xxxxx" required>
+              <div class="invalid-feedback">
+                Campo obligatorio.
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4 text-primary">
+
+
+          <!-- Servicios que ofrece -->
+          <h4 class="mb-3">Servicio/s que ofrece:</h4>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="gasista">
+            <label class="form-check-label" for="gasista"><h6 class="serviciosfont">Gasista</h6></label>
+            <textarea class="form-control" id="textgasista" rows="3" placeholder="Breve descripción del servicio"></textarea>
+            <br>
+            <h6 class="txtfotos text-primary">Si tiene fotos de trabajos realizados, puede subirlos aquí:</h6>
+            <div class="input-group mb-3">
+                <input type="file" class="form-control" id="inputGroupFile02">
+                <label class="input-group-text" for="inputGroupFile02">Subir</label>
+            </div>
+          </div>
+
+          <hr class="my-4 text-primary">
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="electicista">
+            <label class="form-check-label" for="electicista"><h6 class="serviciosfont">Electricista</h6></label>
+            <textarea class="form-control" id="textelectricista" rows="3" placeholder="Breve descripción del servicio"></textarea>
+            <br>
+            <h6 class="txtfotos text-primary">Si tiene fotos de trabajos realizados, puede subirlos aquí:</h6>
+            <div class="input-group mb-3">
+                <input type="file" class="form-control" id="inputGroupFile02">
+                <label class="input-group-text" for="inputGroupFile02">Subir</label>
+            </div>
+          </div>
+          
+          <hr class="my-4" text-primary>
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="albañil">
+            <label class="form-check-label" for="albañil"><h6 class="serviciosfont">Albañilería</h6></label>
+            <textarea class="form-control" id="textalbañil" rows="3" placeholder="Breve descripción del servicio"></textarea>
+            <br>
+            <h6 class="txtfotos text-primary">Si tiene fotos de trabajos realizados, puede subirlos aquí:</h6>
+            <div class="input-group mb-3">
+                <input type="file" class="form-control" id="inputGroupFile02">
+                <label class="input-group-text" for="inputGroupFile02">Subir</label>
+            </div>
+          </div>
+
+          <hr class="my-4" text-primary>
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="plomero">
+            <label class="form-check-label" for="plomero"><h6 class="serviciosfont">Plomería</h6></label>
+            <textarea class="form-control" id="textplomeria" rows="3" placeholder="Breve descripción del servicio"></textarea>
+            <br>
+            <h6 class="txtfotos text-primary">Si tiene fotos de trabajos realizados, puede subirlos aquí:</h6>
+            <div class="input-group mb-3">
+                <input type="file" class="form-control" id="inputGroupFile02">
+                <label class="input-group-text" for="inputGroupFile02">Subir</label>
+            </div>
+          </div>
+
+          <hr class="my-4" text-primary>
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="pintura">
+            <label class="form-check-label" for="pintura"><h6 class="serviciosfont">Pintura</h6></label>
+            <textarea class="form-control" id="textpintura" rows="3" placeholder="Breve descripción del servicio"></textarea>
+            <br>
+            <h6 class="txtfotos text-primary">Si tiene fotos de trabajos realizados, puede subirlos aquí:</h6>
+            <div class="input-group mb-3">
+                <input type="file" class="form-control" id="inputGroupFile02">
+                <label class="input-group-text" for="inputGroupFile02">Subir</label>
+            </div>
+          </div>
+
+          <hr class="my-4" text-primary>
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="carpintero">
+            <label class="form-check-label" for="carpintero"><h6 class="serviciosfont">Carpintería</h6></label>
+            <textarea class="form-control" id="textcarpintero" rows="3" placeholder="Breve descripción del servicio"></textarea>
+            <br>
+            <h6 class="txtfotos text-primary">Si tiene fotos de trabajos realizados, puede subirlos aquí:</h6>
+            <div class="input-group mb-3">
+                <input type="file" class="form-control" id="inputGroupFile02">
+                <label class="input-group-text" for="inputGroupFile02">Subir</label>
+            </div>
+          </div>
+
+          <hr class="my-4" text-primary>
+          <!-- Fin Servicios que ofrece -->
+
+
+          <h4 class="mb-3">Seleccione los medios de pago que acepta:</h4>
+
+          <div class="my-3">
+            <div class="form-check">
+              <input id="credit" name="paymentMethod" type="checkbox" class="form-check-input">
+              <label class="form-check-label mediospago" for="credit">Tarjeta de crédito</label>
+            </div>
+            <div class="form-check">
+              <input id="debit" name="paymentMethod" type="checkbox" class="form-check-input">
+              <label class="form-check-label mediospago" for="debit">Tarjeta de débito</label>
+            </div>
+            <div class="form-check">
+              <input id="paypal" name="paymentMethod" type="checkbox" class="form-check-input">
+              <label class="form-check-label mediospago" for="paypal">Transferencia bancaria</label>
+            </div>
+            <div class="form-check">
+                <input id="mercadopago" name="paymentMethod" type="checkbox" class="form-check-input">
+                <label class="form-check-label mediospago" for="mercadopago">Mercado pago</label>
+            </div>
+            <div class="form-check">
+                <input id="efectivo" name="paymentMethod" type="checkbox" class="form-check-input">
+                <label class="form-check-label mediospago" for="efectivo">Efectivo</label>
+            </div>
+          </div>
+
+          <hr class="my-4 text-primary">
+
+          <button class="w-100 btn btn-primary btn-lg" type="submit">Subir servicio/s</button>
+          <br>
+          <br>
+        </form>
+      </div>
+  </main>

@@ -1,0 +1,39 @@
+<div class="container py-4">
+    <header class="pb-3 mb-4 border-bottom">
+      <a class="d-flex align-items-center text-dark text-decoration-none">
+        <img src="../../assets/logo_dibujo.png" width="40" height="35" class="me-2" viewBox="0 0 118 94" role="img">
+        <span class="fs-4">Bienvenido/a Usuario!</span>
+      </a>
+    </header>
+
+    <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">¡Comencemos!</h1>
+        <p class="col-md-8 fs-4"> Queremos que tengas la mejor experiencia 
+        con Proservices. Elige una de las opciones debajo, si queres continuar como 
+        <i>prestador</i> o <i class="text-success">cliente</i> para poder comenzar.
+        </p>
+      </div>
+    </div>
+
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6">
+        <div class="h-100 p-5 text-white bg-primary rounded-3">
+          <h2>Quiero trabajar</h2>
+          <p>Aquí podrás comenzar a subir tus trabajos y ofrecerlos de manera rápida y sencilla.
+            Podrás ofrecer uno o más servicios, subir fotos de tus trabajos y mucho más! 
+          </p>
+          <button routerLink="/prestador" class="btn btn-outline-light" type="button">Empezar</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="h-100 p-5 text-white bg-success border rounded-3">
+          <h2>Quiero contratar</h2>
+          <p>Aquí comenzarás como cliente para contratar el servicio que más se adapte 
+            a tus necesidades. Podrás ver toda la información necesaria de cada servicio 
+            y de cada proveedor, para decidir cuál quieres contratar.
+          </p>
+          <button routerLink="/cliente" class="btn btn-outline-light" type="button">Empezar</button>
+        </div>
+      </div>
+    </div>

@@ -1,0 +1,36 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  }
+
+  footer img{
+    width: 250px;
+    position: absolute;
+    padding: 40px;
+  }
+
+  footer p{
+    position: relative;
+    margin: 40px;
+    align-self: center;
+    color: white;
+  }
+
+  .bg{
+    background-color: #07a3e0;
+  }
+
+
+  @media (max-width: 750px){
+    footer img{
+      width: 200px;
+      align-self: center;
+      padding: 20px;
+    }
+
+    footer p{
+      position: relative;
+      margin: 50px;
+    }
+  }
